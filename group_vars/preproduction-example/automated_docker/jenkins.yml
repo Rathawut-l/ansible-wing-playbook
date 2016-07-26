@@ -1,0 +1,19 @@
+---
+automated_docker_jenkins_install_plugins:
+  - workflow-aggregator
+  - docker-plugin
+  - gitlab-hook
+  - gitlab-plugin
+  - active-directory
+  - role-strategy
+# automated_docker_jenkins_admin_username: myuser
+# automated_docker_jenkins_admin_password_salt: mysalt
+# automated_docker_jenkins_admin_password: CHANGEME
+# automated_docker_jenkins_old_admin_password: CHANGEME
+automated_docker_jenkins_ad_domain: mydomain.com
+automated_docker_jenkins_ad_server: 192.168.1.10:3268
+automated_docker_jenkins_ad_bind_name: CN=Users,DC=mydomain,DC=com
+automated_docker_jenkins_ad_bind_password: CHANGEME
+automated_docker_jenkins_admin_role_user_list:
+  - myuser1
+  - myuser2
