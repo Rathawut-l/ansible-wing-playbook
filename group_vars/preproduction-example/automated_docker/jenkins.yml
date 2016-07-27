@@ -1,4 +1,16 @@
 ---
+automated_docker_container_jenkins:
+  jenkins:
+    image: jenkins:2.7.1-alpine
+    name: jenkins
+    hostname: jenkins
+    published_ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+
+
 automated_docker_jenkins_install_plugins:
   - workflow-aggregator
   - docker-plugin
