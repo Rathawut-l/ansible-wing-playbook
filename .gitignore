@@ -6,7 +6,7 @@ group_vars/*/*test*
 group_vars/*/*/*vault*.yml
 files/groups/*/nginx/certs/*
 files/groups/*test*
-files/groups/*/id_rsa
+files/groups/*/*/id_rsa
 files/docker-machine/*
 !files/docker-machine/.REMOVEME
 inventories/*test*
