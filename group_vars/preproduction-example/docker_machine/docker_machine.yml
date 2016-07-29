@@ -1,6 +1,6 @@
 ---
 # Docker Machine installation configuration
-#docker_machine_install_version: 0.7.0
+#docker_machine_install_version: 0.8.0
 #docker_machine_install_url: https://github.com/docker/machine/releases/download/v{{ docker_machine_install_version }}/docker-machine-{{ ansible_system }}-{{ ansible_architecture }}
 #docker_machine_install_path: /usr/local/bin/docker-machine
 #docker_machine_install_checksum: md5:bf73bbfee97fad04d3ff20151b1847fa

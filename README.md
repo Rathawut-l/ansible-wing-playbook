@@ -12,9 +12,9 @@ This repository is the skeleton to do infrastructure as a code with Ansible + Do
 Pre-requisites
 ---------------------------------------------------------------------------
 
-- Docker 1.10 or up
-- Docker Machine 0.7.0 or up
-- Ansible 2.1 or up
+- Docker 1.12 or up
+- Docker Machine 0.8.0 or up
+- Ansible 2.1 (with patch) or up
 - Make sure that you can ssh to target machine
 
 Tutorial
