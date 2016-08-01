@@ -11,6 +11,13 @@ os_instance:
   ansible_user: ubuntu
   groups: idc-aws
   count: 3
+  volumes:
+    data:
+      size: 40
+      path: /var/lib/nginx
+    log:
+      size: 8
+      path: /log
 
 os_pdns_domain: example.org
 os_pdns_key_api: CHANGEME
