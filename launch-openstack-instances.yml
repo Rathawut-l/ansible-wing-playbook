@@ -42,7 +42,7 @@
   gather_facts: yes
   serial: 1
   roles:
-    - role: winggundamth.automated_docker
+    - { role: winggundamth.automated_docker, when: automated_docker_name is defined }
 
 - name: Deploy Keepalived
   hosts: launched_openstack_instances
