@@ -14,3 +14,4 @@ inventories/*/*test*
 .vault*
 vault*
 *.retry
+.DS_Store
