@@ -22,6 +22,7 @@ os_instance:
 os_pdns_domain: example.org
 os_pdns_key_api: CHANGEME
 os_pdns_authoritative_server: http://192.168.1.11:8081
+os_pdns_srv_port: 80
 
 newrelic_license_key: CHANGEME
 
