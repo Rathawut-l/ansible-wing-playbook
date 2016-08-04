@@ -14,4 +14,7 @@ inventories/*/*test*
 .vault*
 vault*
 *.retry
+*.pem
+*.crt
+*.key
 .DS_Store
